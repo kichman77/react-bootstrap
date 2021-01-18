@@ -2,7 +2,8 @@ import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import NaviBar from "./components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home, About, Users } from "./pages";
+import {  About, Users } from "./pages";
+import Home from "./pages/Home";
 function App() {
   return (
     <>
